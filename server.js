@@ -19,7 +19,7 @@ const ENV = 'Production';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from SURAJ SHENDE deployment version:V1';
+  const msg = 'Hello from SURAJ SHENDE deployment version: V 2 ';
   res.send(getPage(msg));
 });
 

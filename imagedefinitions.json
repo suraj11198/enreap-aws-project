@@ -1,6 +1,6 @@
 [
     {
         "name": "httpd-web",
-        "imageUri": "399450877166.dkr.ecr.us-east-2.amazonaws.com/enreap-aws-lab"
+        "imageUri": "399450877166.dkr.ecr.us-east-2.amazonaws.com/enreap-aws-lab:latest"
     }
 ]

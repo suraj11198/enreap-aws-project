@@ -15,7 +15,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -t $REPOSITORY_URI:latest .
-      - docker tag enreap-aws-lab:latest 399450877166.dkr.ecr.us-east-2.amazonaws.com/enreap-aws-lab:latest
+      - docker tag 399450877166.dkr.ecr.us-east-2.amazonaws.com/enreap-aws-lab:latest
   post_build:
     commands:
       - echo Build completed on `date`
